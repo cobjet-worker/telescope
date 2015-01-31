@@ -1,0 +1,6 @@
+  (cd programs/server && npm install)
+  export MONGO_URL='mongodb://localhost/telescope'
+  export PORT=8888
+  export ROOT_URL='http://localhost'
+  export MAIL_URL='smtp://user:password@mailhost:port/'
+  node main.js
